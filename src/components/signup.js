@@ -17,7 +17,7 @@ function Signup() {
 
   const submit = e => {
     e.preventDefault();
-    axios.post('https://sravan-signup-default-rtdb.firebaseio.com/register.json',data).then(()=>alert("Data submitted sucessfully"));
+    console.log(data);
     
     
   };
